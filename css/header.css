@@ -1,0 +1,77 @@
+.header-top-line {
+    padding: 22px 0;
+}
+
+.header-top-line ul {
+    list-style-type: none;
+}
+
+.header-top-line ul li {
+    display: inline-block;
+    padding: 12px;
+    font-size: .84375rem;
+    border-radius: 2px;
+}
+
+.header-top-line ul li:hover {
+    background-color: #ffbb42;
+    color: #ffffff;
+}
+
+.header-top-line nav {
+    margin-top: 8px;
+}
+
+/* ______________________________ header-bottom-line */
+
+.header-bottom-line {
+    background-color: #709dca;
+    color: #fff;
+    padding-top: 104px;
+}
+
+.header-bottom-line h2 {
+    font-size: 2.1875rem;
+}
+
+.header-bottom-line form {
+    margin-top: 33px;
+}
+
+.header-bottom-line input[type="text"],
+.header-bottom-line input[type="submit"] {
+    width: 23.3333%;
+    font-size: .8125rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    height: 46px;
+    padding-left: 3.3333%;
+    margin: 0 5px;
+}
+
+.header-bottom-line input[type="submit"] {
+    width: 17.5%;
+    background-color: #ffbb42;
+    padding-left: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header-bottom-line .tv-slider {
+    width: 647px;
+    height: 343px;
+    background-image: url(../images/Vector\ Smart\ Object.png);
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    top: 67px;
+}
+
+.header-bottom-line .tv-slider img {
+    width: 446px;
+    height: 260px;
+    margin-top: 17px;
+    border-radius: 2px;
+}
+

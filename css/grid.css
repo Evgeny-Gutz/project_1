@@ -1,0 +1,52 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25%;
+}
+
+.row {
+    margin: 0 -1.25%;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-6,
+.col-8,
+.col-10,
+.col-12 {
+    margin: 0 1.25%;
+    float: left;
+}
+
+.col-1 {
+    width: 5.8333%;
+}
+.col-2 {
+    width: 14.1667%;
+}
+.col-3 {
+    width: 22.5%;
+}
+.col-4 {
+    width: 30.8333%;
+}
+.col-6 {
+    width: 47.5%;
+}
+.col-8 {
+    width: 64.1667%;
+}
+.col-10 {
+    width: 80.8333%;
+}
+.col-12 {
+    width: 97.5%;
+}
