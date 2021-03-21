@@ -12,6 +12,10 @@ body {
     color: #394b50;
 }
 
+.mg-left-20 {
+    margin-left: 20px;
+}
+
 .orange {
     background-color: orange;
 }
@@ -30,6 +34,10 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.text-left {
+    text-align: left;
 }
 
 .text-right {

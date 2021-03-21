@@ -1,0 +1,48 @@
+.block-about-us::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.block-about-us .left-image {
+    /* min-height: 622px;
+    background-image: url(../images/Layer\ image.png);
+    background-size: cover; */
+    width: 50%;
+    float: left;
+}
+
+.block-about-us .left-image img {
+    width: 850px;
+    height: 623px;
+}
+
+.block-about-us .right-about-us {
+    min-height: 622px;
+    padding: 160px 0 0 77px;
+    background-color: orange;
+    width: 50%;
+    float: left;
+}
+
+.block-about-us .right-about-us > h3 {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.block-about-us .right-about-us > p {
+    font-size: .8125rem;
+    line-height: 24px;
+    margin-bottom: 58px;
+}
+
+.block-about-us .right-about-us > button {
+    height: 45px;
+    width: 143px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #ffc155;
+    border: 1px solid #e7ad48;
+}

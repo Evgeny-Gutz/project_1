@@ -1,7 +1,45 @@
 .services {
     padding-top: 200px;
+    padding-bottom: 78px;
 }
 
 .services h3 {
     font-size: 1.875rem;
+}
+
+.services .container > p {
+    margin-bottom: 90px;
+}
+
+.services .block-information {
+    margin-bottom: 77px;
+    width: 93%;
+}
+
+.services .block-information::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.services .block-information .left,
+.services .block-information .right {
+    float: left;
+}
+.services .block-information .left {
+    width: 15%;
+}
+.services .block-information .right {
+    width: 75%;
+}
+
+.services .block-information h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.services .block-information p {
+    font-size: .8125rem;
+    line-height: 22px;
 }
